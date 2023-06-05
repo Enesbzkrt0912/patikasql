@@ -1,0 +1,21 @@
+SELECT COUNT(*) rating
+FROM film 
+ORDER BY rating
+
+SELECT replacement_cost, COUNT(*)
+FROM film
+GROUP BY replacement_cost
+HAVING COUNT(*) > 50
+
+
+
+SELECT replacement_cost, COUNT(*)
+FROM film
+GROUP BY replacement_cost
+HAVING COUNT(*) > 50
+
+
+SELECT replacement_cost, COUNT(*)
+FROM film
+GROUP BY replacement_cost
+HAVING COUNT(*) > 50
